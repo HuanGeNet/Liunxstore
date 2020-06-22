@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <filter id="code-a" width="128.2%" height="127.3%" x="-14.1%" y="-13.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="code-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A383B"/>
+      <stop offset="100%" stop-color="#272627"/>
+    </linearGradient>
+    <linearGradient id="code-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBFBFB"/>
+      <stop offset="100%" stop-color="#F6F6F6"/>
+    </linearGradient>
+    <linearGradient id="code-d" x1="3.766%" x2="90.801%" y1="0%" y2="72.473%">
+      <stop offset="0%" stop-color="#0092C6"/>
+      <stop offset="100%" stop-color="#0062CC"/>
+    </linearGradient>
+    <linearGradient id="code-e" x1="11.157%" x2="85.084%" y1="5.101%" y2="94.624%">
+      <stop offset="0%" stop-color="#03AFE7"/>
+      <stop offset="100%" stop-color="#027BCD"/>
+    </linearGradient>
+    <linearGradient id="code-f" x1="11.157%" x2="85.084%" y1="5.101%" y2="94.624%">
+      <stop offset="0%" stop-color="#43A4E3"/>
+      <stop offset="37.916%" stop-color="#107CC3"/>
+      <stop offset="46.883%" stop-color="#2496E2"/>
+      <stop offset="100%" stop-color="#027BCD"/>
+    </linearGradient>
+    <linearGradient id="code-g" x1="78.713%" x2="11.157%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#00B2E8"/>
+      <stop offset="100%" stop-color="#2B95DB"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#code-a)" transform="translate(6 4)">
+    <rect width="64" height="78" x="6.551" y="4.547" fill="url(#code-b)" rx="2" transform="rotate(-9 38.551 43.547)"/>
+    <g transform="rotate(-10 90.935 -24.365)">
+      <polygon fill="url(#code-c)" points="68 0 68 68 0 68 0 0" opacity="0"/>
+      <polygon fill="url(#code-d)" fill-rule="nonzero" points="68 60.928 51 68 0 50.83 51 58.405"/>
+      <polygon fill="url(#code-e)" fill-rule="nonzero" points="68 7.072 68 60.928 51 68 51 58.405 51 0"/>
+      <polygon fill="#0062C5" fill-rule="nonzero" points="33.15 9.95 42.5 13.925 42.5 44.2 33.15 48.175"/>
+      <polygon fill="url(#code-f)" fill-rule="nonzero" points="4.25 19.603 8.126 18.309 42.5 44.2 33.15 48.175"/>
+      <polygon fill="url(#code-g)" fill-rule="nonzero" points="4.25 38.517 33.15 9.95 42.5 13.925 8.126 39.811"/>
+    </g>
+  </g>
+</svg>
