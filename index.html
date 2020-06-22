@@ -1,0 +1,260 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HuanGe'Linux Store-FindYourLinux</title>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FF0F9D58" />
+    <meta name="description" content="HuanGe'Linux Store，发现Linux应用的乐趣！快来发现新鲜的、有趣的、好玩儿的Linux应用！在HuanGe'Linux Store，玩转Linux应用，分享Linux应用经验，发现Linux应用的乐趣，尽享Linux应用的快乐！"/>  
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
+    <link type="image/vnd.microsoft.icon" href="img/icon.png" />
+    <link rel="stylesheet" type="text/css" href="win_files/bootstrap.min.css" />
+	
+    <style type="text/css" abt="234"></style>
+    <link rel="stylesheet" type="text/css" href="win_files/style.css" />
+    <script src="win_files/jquery-3.2.1.min.js"></script>  
+    <script src="win_files/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="hdp/css/normalize.css" />
+<link rel="stylesheet" href="hdp/css/style.css">
+  </head>
+  <body>
+    <div class="warpper">
+      <div class="header_nav">
+        <div class="navbar navbar-fixed-top header" role="navigation" id="nav-outer">
+     		<div class="container">
+            <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#nav_right" aria-expanded="false" aria-controls="navbar">
+               
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="/" id="logo">
+                <span id="logofont">HuanGe'Linux Store</span>
+              </a>
+            </div>
+             <div class="collapse navbar-collapse navbar-left navbar-collapse-menu" id="nav_right">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">首页</a></li>
+				<li class="active"><a href="app.html">应用</a></li>
+				<li class="active"><a href="game.html">游戏</a></li>
+				<li><a href="http://huangenet.cn/tools/music/">音乐</a></li>
+				<li><a href="http://quickso.cn/">快点搜</a></li>
+		    		<li><a href="https://wj.qq.com/s2/6313983/5c87/">应用提交</a></li>
+				<li class="active"><a href="contact.html">联系</a></li>
+				<li class="active"><a href="about.html">关于</a></li>
+                <li><a href="http://huangenet.cn/">欢哥网</a></li>
+                
+            </ul>
+        </div>  
+            <div class="navbar-right form-group"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="app_left">
+          <div class="app_left_one" style="margin-top: 20px;">
+<!-- 轮播图开始 -->
+	<div class="slider" data-pos="0">
+		<div class="slider__slides">
+			<div class="slider__slide"><img src="hdp/images/welcome.png" alt="" width="750" height="400"/> </div>
+			<div class="slider__slide"><img src="hdp/images/wps.png" alt="" width="750" height="400"/></div>
+			<div class="slider__slide"><img src="hdp/images/wyy.png" alt="" width="750" height="400"/></div>
+			<div class="slider__slide"><img src="hdp/images/qq.png" alt="" width="750" height="400"/></div>
+		</div>
+		<div class="slider__dots">
+			<a href="#" class="slider__indicator"></a>
+			<a href="#" class="slider__dot" data-pos="0"></a>
+			<a href="#" class="slider__dot" data-pos="1"></a>
+			<a href="#" class="slider__dot" data-pos="2"></a>
+			<a href="#" class="slider__dot" data-pos="3"></a>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+	'use strict';
+	var dots = 4;
+	var sliderElem = document.querySelector('.slider');
+	var dotElems = sliderElem.querySelectorAll('.slider__dot');
+	var indicatorElem = sliderElem.querySelector('.slider__indicator');
+
+	Array.prototype.forEach.call(dotElems, function (dotElem) {
+
+		dotElem.addEventListener('click', function (e) {
+
+			var currentPos = parseInt(sliderElem.getAttribute('data-pos'));
+			var newPos = parseInt(dotElem.getAttribute('data-pos'));
+
+			var newDirection = newPos > currentPos ? 'right' : 'left';
+			var currentDirection = newPos < currentPos ? 'right' : 'left';
+
+			indicatorElem.classList.remove('slider__indicator--' + currentDirection);
+			indicatorElem.classList.add('slider__indicator--' + newDirection);
+			sliderElem.setAttribute('data-pos', newPos);
+		});
+	});
+</script>
+	 </div><!-- 轮播图结束 -->
+			<br>
+			<!--几个应用展示-->
+          <div class="app_left_two">
+            <div class="left_nav">
+             
+            <span class="left_nav_left">小编推荐</span> 
+            <!--<a href="download.html">
+              <span class="left_nav_right">查看更多</span>-->
+            </a></div>
+            <div class="left_app">
+              <div class="applications">
+              <a href="https://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="position: static;">
+                  <div class="app_app">
+                    <img src="images/deepin.com.qq.im_icon.svg" />
+                  </div>
+                  <dl>
+                    <dd>
+                      <span class="sp-name">QQ</span>
+                    </dd>
+                  </dl>
+                </div>
+              </a> 
+              <a href="https://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.wechat/">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="position: static;">
+                  <div class="app_app">
+                    <img src="images/wechat.svg" />
+                  </div>
+                  <dl>
+                    <dd>
+                      <span class="sp-name">WeChat</span>
+                    </dd>
+                  </dl>
+                </div>
+              </a> 
+              <a href="https://music.163.com/#/download">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="position: static;">
+                  <div class="app_app">
+                    <img src="images/netease.svg" />
+                  </div>
+                  <dl>
+                    <dd>
+                      <span class="sp-name">网易云音乐</span>
+                    </dd>
+                  </dl>
+                </div>
+              </a> 
+              <a href="https://linux.wps.cn/">
+                <div class="col-md-3 col-sm-3 col-xs-3" style="position: static;">
+                  <div class="app_app">
+                    <img src="images/wps-office.svg" />
+                  </div>
+                  <dl>
+                    <dd>
+                      <span class="sp-name">WPS Office</span>
+                    </dd>
+                  </dl>
+                </div>
+              </a></div>
+            </div>
+          </div>
+</div>
+			<!--侧边栏-->
+		<!--常用网站-->
+        <div class="app_right" style="margin-top: 20px;">
+          <div class="right_title">
+            <span>常用网站</span>
+          </div>
+                                  <center><a href="https://cn.ubuntu.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Ubuntu</a>
+					
+					<a href="https://www.deepin.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Deepin</a>
+					
+					<a  href="http://www.debian.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Debian</a>
+					
+					<a  href="https://getfedora.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Fedora</a><br><br>
+					
+					<a  href="https://linuxmint.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Mint</a>
+					<a  href="https://manjaro.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">manjaro</a>
+					
+					<a  href="http://wiki.ubuntu.org.cn/Qref/Apps" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Ubuntu软件推荐</a>
+					
+					<a  href="https://www.linuxalt.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Win对应Linux软件</a>
+					
+					<a  href="https://www.gnome-look.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Gnome-look</a><br><br>
+					
+					<a  href="https://www.redhat.com/zh" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Redhat</a>
+					
+					<a  href="http://linux.vbird.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">鸟哥私房菜</a>
+					
+					<a  href="https://linux.cn/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux中国</a>
+					
+					<a  href="http://www.linux.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux.com</a><br><br>
+					
+					<a  href="https://www.linux.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux.org</a>
+					
+					<a  href="https://distrowatch.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">DistroWatch</a>
+					
+					<a  href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Python官网</a>
+					
+					<a  href="http://bbs.chinaunix.net/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">ChinaUnix论坛</a><br><br>
+					
+					<a  href="https://linux265.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux265</a>
+					
+					<a  href="https://www.linuxidc.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux公社</a>
+					
+					<a  href="https://man.linuxde.net/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux命令大全</a>
+					
+					<a  href="https://linux.ubuntu.org.cn/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Linux网址导航</a><br><br>
+			
+			        	<a  href="https://mirrors.aliyun.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">阿里云镜像</a>
+			
+					<a  href="http://mirrors.huaweicloud.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">华为云镜像</a>
+                                    
+                   <a  href="http://okapps.oukan.online/lroapps/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">LROApps</a>                 
+			
+					<a  href="https://dstore-appstore.deepin.cn/china/index" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Deepin应用商店预览</a><br><br>
+					  
+					<a  href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Github</a>
+					  
+					<a  href="https://www.cnblogs.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">博客园</a>
+					  
+					<a  href="https://www.v2ex.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">V2Ex</a>
+					  
+					<a  href="https://www.coolapk.com/" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">酷安</a><br><br>
+                    
+                   <a  href="https://snapcraft.io/store" target="_blank" rel="noopener noreferrer" class="nya-btn hot badge">Snapcraft</a>
+		</center>		        
+        </div>
+	
+	<div class="app_right" style="margin-top: 50px;">
+          <div class="right_title">
+            <center><b>HuanGe'Linux Store-FindYourLinux</b></center>
+          </div>
+       <center>
+	
+		
+	<img src="images/2wm.jpg" width="200" height="200" >
+		<p >微信公众号</p>
+          
+        </center></div>
+	</div>
+	  <!--网站底部-->
+      <div class="container">
+        <div class="footer">
+          <div class="w">
+            <div class="footer-links">
+ <script>
+    var xlm_wid='16224';
+    var xlm_url='https://www.xianliao.me/';
+</script>
+<script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
+            <a href="http://huangenet.cn/">欢哥网</a> -&nbsp;
+		<script type="text/javascript" src="//js.users.51.la/20677549.js"></script>  
+		  </div>
+            <div class="footer-record">Copyright © 2016-2020 <a href="http://huangenet.cn/">欢哥网</a> All rights reserved.</div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
